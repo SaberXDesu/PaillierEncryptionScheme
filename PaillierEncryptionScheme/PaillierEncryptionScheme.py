@@ -11,7 +11,6 @@ def setVariables(x,y):
     lamb = (EulerTotient)
     mu = getMu(EulerTotient,n)
     print(mu)
-
     print("p = %d, "%(p)+"q = %d, "%(q) + ("n = %d ")%(n)+ "EulerTotient = %d, "%(EulerTotient) + "g = %d, "%(g) + "lambda = %d, "%(lamb) + "mu = %d"%(mu)) #Print variables
     variables =[p,q,n,EulerTotient,g,lamb,mu] 
     return(variables)
@@ -74,6 +73,6 @@ def main():
         result = setVariables(YourP,YourQ)
         secondQuery(result)
 
-
+        
 if __name__== '__main__':
     main()
