@@ -1,3 +1,3 @@
 # About Paillier Encryption Scheme
-Hello viewers. This is my python that I made in Macquarie Univeristy COMP3300 (Sem 2, 2021), Data privacy and Information Security.
-This code is basically a Paillier Encryption Scheme, which encrypts a message 'm' and decrpts a ciphertext 'c'. 
+A little script that I made during my University course at Macquarie Univeristy (Sem 2, 2021).
+This script performs encryption on messages (denoted as 'm) and decrypts the ciphertext ('c'). The encryption algorithm used is Paillier Encryption Scheme.
